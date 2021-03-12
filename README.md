@@ -2,7 +2,7 @@
 # Creators: Heath Arroyo & Selase Mortty
 ## Software Description:
    Exercise for Lab 5+6 contains a Python program that takes the user's input in the form of age, first and last name, and height. This input is then run through calculations and a print statment is presented to the user that pairs their names, age, and height together.
-## Installation:
+## Installation
 Run the command line and enter in the command:
 ```git
     git clone https://github.com/ArroyoHeath/LabExercise-5-6.git 
@@ -19,3 +19,6 @@ Run the command line and enter in the command:
     heightIn  = int(height) % 12                            ##the remaining inches is calculated by finding the remainder 
     print("Your name is " + str(fName) + " " + str(lName) + ", you are at least " + str(ageDays) + " days old, and you are " + str(int(heightFt)) + " feet and " + str(heightIn) + " inches tall.") #output statement that pairs all the info together and displays it to the user
 ```
+
+## How To Contribute
+   Since this is simply an exercise, if you want to contribute its really simple. The program must still complete the basic function of taking in user input and then displaying it for the user in a print statement. Contribute by adding meaningful lines of code that gather input from the user. Make sure that that data is then added to the final output staement. See the "Code of Conduct" to familiarize yourself with our rules.
